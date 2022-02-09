@@ -1,0 +1,50 @@
+.project-list {
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
+  grid-gap: 2rem;
+}
+
+.project-list a {
+  background-color: #fff;
+  padding: 1.6rem;
+  border-radius: 6px;
+  box-shadow: 3px 10px 3px rgb(141 52 69 / 10%);
+  /* box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.05); */
+  border: 1px solid #d7d7d7;
+  text-decoration: none;
+  color: inherit;
+}
+
+.project-list h4 {
+  font-size: 0.9em;
+  color: #444;
+}
+
+.project-list p {
+  color: #444;
+  font-size: 0.8em;
+}
+
+.project-list .duedate {
+  color: #444;
+}
+.project-list .assigned-to {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #d7d7d7;
+}
+
+.project-list ul {
+  margin: 1rem 0;
+  display: flex;
+}
+
+.project-list li {
+  margin-right: 1rem;
+}
+
+.project-list .avatar {
+  width: 3rem;
+  height: 3rem;
+}
