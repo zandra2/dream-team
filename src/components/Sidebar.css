@@ -1,0 +1,58 @@
+.sidebar {
+  width: 30rem;
+  min-width: 30rem;
+  background: #8f3545;
+  min-height: 100vh;
+  box-sizing: border-box;
+  position: relative;
+  color: #ffffff;
+}
+.sidebar-content {
+  position: fixed;
+  width: inherit;
+}
+.sidebar .user {
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 1px;
+  padding: 4rem 3rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.sidebar .links {
+  margin-top: 8rem;
+  margin-left: 2rem;
+}
+.sidebar .links li {
+  margin-top: 1rem;
+}
+.sidebar .links a {
+  display: flex;
+  padding: 1rem;
+  text-decoration: none;
+  width: 100%;
+  color: #fff;
+  box-sizing: border-box;
+}
+.sidebar .links img {
+  margin-right: 1rem;
+  /* change icon color from black to white */
+  filter: invert(100%);
+}
+.sidebar .links a.active {
+  /* color: #555; */
+  color: #8f3545;
+  background: white;
+  border-radius: 2rem 0 0 2rem;
+}
+
+.sidebar .links .active img {
+  filter: invert(80%);
+}
+
+/* avatar in sidebar */
+.sidebar .user .avatar {
+  margin-bottom: 1rem;
+  width: 7rem;
+  height: 7rem;
+  border: 3px solid #fff;
+}
