@@ -1,4 +1,6 @@
-import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
+// Router5 vs Router6: Redirect = Navigate, Switch = Routes
+// need to use element property inside Route
+import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
 import { useAuthContext } from "./hooks/useAuthContext";
 
 // styles
@@ -27,30 +29,29 @@ function App() {
           <div className="container">
             {/* appears in the center */}
             <Navbar />
-            <Switch>
-              <Route exact path="/">
-                {/* if user not authenticated redirect to login page */}
-                {!user && <Redirect to="/login" />}
-                {/* if user is logged in then they can see Dashboard */}
-                {user && <Dashboard />}
-              </Route>
-              <Route path="/create">
-                {!user && <Redirect to="/login" />}
-                {user && <Create />}
-              </Route>
-              <Route path="/projects/:id">
-                {!user && <Redirect to="/login" />}
-                {user && <Project />}
-              </Route>
-              <Route path="/login">
-                {user && <Redirect to="/" />}
-                {!user && <Login />}
-              </Route>
-              <Route path="/signup">
-                {user && user.displayName && <Redirect to="/" />}
-                {!user && <Signup />}
-              </Route>
-            </Switch>
+            <Routes>
+              {/* Router6 replaces Route tag w element prop*/}
+              <Route
+                path="/"
+                element={user ? <Dashboard /> : <Navigate to="/login" />}
+              />
+              <Route
+                path="/create"
+                element={user ? <Create /> : <Navigate to="/login" />}
+              />
+              <Route
+                path="/projects/:id"
+                element={user ? <Project /> : <Navigate to="/login" />}
+              />
+              <Route
+                path="/login"
+                element={user ? <Navigate to="/" /> : <Login />}
+              />
+              <Route
+                path="/signup"
+                element={user ? <Navigate to="/" /> : <Signup />}
+              />
+            </Routes>
           </div>
           {/* appears on the left when user logged in */}
           {user && <OnlineUsers />}
