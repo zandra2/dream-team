@@ -22,13 +22,6 @@ Dream Team is a web app that allows project assignment, communication dialog and
 <img src="src/assets/wireframe/Project.png" alt="Project" width="252" height="163">.
 <img src="src/assets/wireframe/Comment.png" alt="Comment" width="252" height="163">
 
-## Demo - Elegant Theme
-<img src="src/assets/wireframe2/Login.png" alt="Login" width="252" height="163">.
-<img src="src/assets/wireframe2/Signup.png" alt="Signup" width="252" height="163">.
-<img src="src/assets/wireframe2/Dashboard.png" alt="Dashboard" width="252" height="163">.
-<img src="src/assets/wireframe2/Project.png" alt="Project" width="252" height="163">.
-<img src="src/assets/wireframe2/Comment.png" alt="Comment" width="252" height="163">
-
 ## Environment Setup
 
 ### Node.js
