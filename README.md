@@ -1,6 +1,6 @@
 # Dream Team
 
-Dream Team is a user-friendly project management interface. It allows users to know all their project whereabouts at a glance, seamlessly collaborate and communicate with their team members, and manage the team's entire workload all in one place!
+Dream Team is a user-friendly project management interface. It allows users to know all their project whereabouts at a glance, seamlessly collaborate and communicate with their teammates, and manage the team's entire workload all in one place!
 
 ## Features
 
