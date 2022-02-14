@@ -1,16 +1,15 @@
 # Dream Team
 
-Dream Team is a web app that allows project assignment, communication dialog and team collaboration. 
+Dream Team is a user-friendly project management interface. It allows users to know all their project whereabouts at a glance, seamlessly collaborate and communicate with their team members, and manage the team's entire workload all in one place!
 
 ## Features
 
 * Login is for users who already have existing account
 * Authentication for all logins
 * User can sign up if they haven’t create an account and upload an image of 100kg max size
-* User can assign project to self or teammates
-* User can see who’s online and filter project assignments
+* User can see which teammate is online and filter projects by category, all teammates, or just their own
 * User can create, delete, assign, and communicate project to self or teammates
-* Within each project user can directly communication to teammates
+* Within each project user can directly communicate to teammates via comment feature
 * Communication log has timestamp when it was written
 * Project assignment includes: title, description, deadline, category, and assignee selections
 * When assigned project is complete, user can delete the individual project assignment
