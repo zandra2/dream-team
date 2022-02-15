@@ -63,6 +63,11 @@ After running the __firebase init__ command answers the following prompts on ter
 __Now Firebase initialization is complete!!__
 
 ### Dependencies: React-Router-Dom and React-Select
+To download dependencies defined in the package.json file and generates a node_modules folder with the installed modules, run the following command in the terminal: 
+```
+$ npm install
+```
+
 [React-Router-Dom](https://reactrouter.com/) is an npm package that enables you to implement dynamic routing in a web app.
 
 To install react-router-dom (we use version 6 for this project), run the following command in the terminal: 
