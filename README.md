@@ -6,7 +6,7 @@ Dream Team is a user-friendly project management interface. It allows users to k
 
 * Login is for users who already have existing account
 * Authentication for all logins
-* User can sign up if they haven’t create an account and upload an image of 100kg max size
+* User can sign up if they haven’t create an account and upload an image of 100kb max size
 * User can see which teammate is online and filter projects by category, all teammates, or just their own
 * User can create, delete, assign, and communicate project to self or teammates
 * Within each project user can directly communicate to teammates via comment feature
